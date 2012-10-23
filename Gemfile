@@ -20,7 +20,17 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+group :development, :test do
+  gem 'factory_girl_rails', '~> 3.2.0'
+  gem 'rspec-rails', '~> 2.10.1'
+  if RUBY_VERSION <= "1.9.2"
+    gem "ruby-debug19", :require => "ruby-debug", :platform => :ruby_19
+  end
+  gem "pry"
+end
+
 gem 'jquery-rails'
+gem 'rbraspag'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
