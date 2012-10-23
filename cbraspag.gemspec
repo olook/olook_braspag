@@ -27,4 +27,20 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "pry"
+
+  gem 'rails', '3.2.8'
+  gem 'sqlite3'
+  gem 'sass-rails',   '~> 3.2.3'
+  gem 'coffee-rails', '~> 3.2.1'
+  gem 'uglifier', '>= 1.0.3'
+
+  gem 'factory_girl_rails', '~> 3.2.0'
+  gem 'rspec-rails', '~> 2.10.1'
+  if RUBY_VERSION <= "1.9.2"
+    gem "ruby-debug19", :require => "ruby-debug", :platform => :ruby_19
+  end
+  gem "pry"
+
+  gem 'jquery-rails'
+  gem 'cbraspag'
 end
