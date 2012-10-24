@@ -7,7 +7,7 @@ gateway = Braspag::Connection.new(
 )
 
 order = Braspag::Order.new(
-  :id => 1234567
+  :id => 12345678
 )
 
 response = gateway.void(order)

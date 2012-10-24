@@ -21,7 +21,7 @@ customer = Braspag::Customer.new(
 
 order = Braspag::Order.new(
   :payment_method    => Braspag::PAYMENT_METHOD[:braspag],
-  :id                => 1234567,
+  :id                => 12345678,
   :amount            => '1000', # $10.00 (accepts all amounts as Integer values in cents)
   :customer          => customer,
   :installments      => 1,
