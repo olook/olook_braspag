@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cbraspag (0.9.0)
+    cbraspag (0.9.1)
       active_attr (>= 0.6)
       httpi (>= 0.9.6)
       json (>= 1.6.1)
@@ -58,11 +58,6 @@ GEM
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
-    factory_girl (3.2.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (3.2.0)
-      factory_girl (~> 3.2.0)
-      railties (>= 3.0.0)
     gyoku (0.4.6)
       builder (>= 2.1.2)
     hike (1.2.1)
@@ -159,7 +154,6 @@ PLATFORMS
 DEPENDENCIES
   cbraspag!
   coffee-rails (~> 3.2.1)
-  factory_girl_rails (~> 3.2.0)
   jquery-rails
   pry
   rails (= 3.2.8)
