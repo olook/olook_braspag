@@ -7,7 +7,7 @@ gateway = Braspag::Connection.new(
 )
 
 order = Braspag::Order.new(
-  :id => 11254
+  :id => 1234567
 )
 
 # Capture $10 from the credit card
