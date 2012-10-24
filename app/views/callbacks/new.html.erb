@@ -1,0 +1,5 @@
+<%= form_tag("/retorno_braspag", :method => "post") do %>
+  <%= label_tag(:order_id, "Order id:") %>
+  <%= text_field_tag(:order_id) %>
+  <%= submit_tag("Send") %>
+<% end %>
