@@ -2,16 +2,6 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "cbraspag/version"
 
-  gem 'rails', '3.2.8'
-  gem 'sqlite3'
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-
-  gem 'factory_girl_rails', '~> 3.2.0'
-  gem "pry"
-
-  gem 'jquery-rails'
 
 Gem::Specification.new do |s|
   s.name        = "cbraspag"
