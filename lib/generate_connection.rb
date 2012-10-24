@@ -1,12 +1,13 @@
 require 'rubygems'
 require 'cbraspag'
+
 gateway = Braspag::Connection.new(
   :merchant_id => '{540BA6EE-39D7-3DC1-D87D-7F82C49A3598}',
   :environment => :homologation
 )
 credit_card = Braspag::CreditCard.new(
   :holder_name        => 'Bob Bobsen',
-  :number             => '1111222233334444',
+  :number             => '0000000000000001',
   :month              => '8',
   :year               => '2012',
   :verification_value => '123'
