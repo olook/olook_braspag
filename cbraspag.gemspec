@@ -2,7 +2,6 @@
 $:.push File.expand_path("../lib", __FILE__)
 require "cbraspag/version"
 
-
 Gem::Specification.new do |s|
   s.name        = "cbraspag"
   s.version     = Braspag::VERSION
